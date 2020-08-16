@@ -1,0 +1,6 @@
+framework module Pods_Pajlot_MGRS_Pro {
+  umbrella header "Pods-Pajlot MGRS Pro-umbrella.h"
+
+  export *
+  module * { export * }
+}

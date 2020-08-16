@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F256F4621EA2B2E0056F861 /* MGRStoDMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F256F4521EA2B2E0056F861 /* MGRStoDMS.swift */; };
+		21140B2021EB408E00A3E3C1 /* Swiftify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21140B1F21EB408E00A3E3C1 /* Swiftify.swift */; };
+		21140B3021EB48C600A3E3C1 /* DMStoMGRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21140B2F21EB48C600A3E3C1 /* DMStoMGRS.swift */; };
+		219E18BC21EB678E00B6AC13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219E18BB21EB678E00B6AC13 /* MapKit.framework */; };
+		219E191121EB893100B6AC13 /* String+getIntegerPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190521EB892D00B6AC13 /* String+getIntegerPosition.swift */; };
+		219E191221EB893100B6AC13 /* vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190621EB892D00B6AC13 /* vector.swift */; };
+		219E191321EB893100B6AC13 /* datums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190721EB892E00B6AC13 /* datums.swift */; };
+		219E191421EB893100B6AC13 /* UTM+toMGRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190821EB892E00B6AC13 /* UTM+toMGRS.swift */; };
+		219E191521EB893100B6AC13 /* UTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190921EB892F00B6AC13 /* UTM.swift */; };
+		219E191621EB893100B6AC13 /* latlon-ellipsoidal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190A21EB892F00B6AC13 /* latlon-ellipsoidal.swift */; };
+		219E191721EB893100B6AC13 /* dms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190B21EB892F00B6AC13 /* dms.swift */; };
+		219E191821EB893100B6AC13 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190C21EB892F00B6AC13 /* Double+Extensions.swift */; };
+		219E191921EB893100B6AC13 /* MGRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190D21EB892F00B6AC13 /* MGRS.swift */; };
+		219E191A21EB893100B6AC13 /* String+toCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190E21EB893000B6AC13 /* String+toCharacter.swift */; };
+		219E191B21EB893100B6AC13 /* LatLon+toUTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E190F21EB893000B6AC13 /* LatLon+toUTM.swift */; };
+		219E191C21EB893100B6AC13 /* ellipsoids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E191021EB893100B6AC13 /* ellipsoids.swift */; };
+		21B561FF21E9F41200186C2B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B561FE21E9F41200186C2B /* Service.swift */; };
+		21C5B8392200DD800045F078 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C5B8382200DD800045F078 /* CustomTF.swift */; };
+		5C57EAECC801639849F1B734 /* Pods_Pajlot_MGRS_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC76513CA07BB69BC33419B8 /* Pods_Pajlot_MGRS_Pro.framework */; };
+		66045ECA205E8A5F009B7BE0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66045EC9205E8A5F009B7BE0 /* extensions.swift */; };
+		6606DB0F205F059A00662237 /* customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6606DB0E205F059A00662237 /* customization.swift */; };
+		6606DB11205F179200662237 /* globalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6606DB10205F179200662237 /* globalFunctions.swift */; };
+		6621E4EE20834934005348F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6621E4ED20834934005348F7 /* GoogleService-Info.plist */; };
 		66CC23CA205E7E700007CD6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CC23C9205E7E700007CD6F /* AppDelegate.swift */; };
-		66CC23CC205E7E700007CD6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CC23CB205E7E700007CD6F /* ViewController.swift */; };
 		66CC23CF205E7E700007CD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CC23CD205E7E700007CD6F /* Main.storyboard */; };
 		66CC23D1205E7E700007CD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CC23D0205E7E700007CD6F /* Assets.xcassets */; };
 		66CC23D4205E7E700007CD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CC23D2205E7E700007CD6F /* LaunchScreen.storyboard */; };
+		66FB4B56207406150047D128 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB4B55207406150047D128 /* MainVC.swift */; };
+		66FB4B58207410DE0047D128 /* learnMoreMGRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB4B57207410DE0047D128 /* learnMoreMGRS.swift */; };
+		66FB4B5A207412AE0047D128 /* variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB4B59207412AE0047D128 /* variables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F256F4521EA2B2E0056F861 /* MGRStoDMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGRStoDMS.swift; sourceTree = "<group>"; };
+		21140B1F21EB408E00A3E3C1 /* Swiftify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftify.swift; sourceTree = "<group>"; };
+		21140B2F21EB48C600A3E3C1 /* DMStoMGRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMStoMGRS.swift; sourceTree = "<group>"; };
+		219E18BB21EB678E00B6AC13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		219E190521EB892D00B6AC13 /* String+getIntegerPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+getIntegerPosition.swift"; sourceTree = "<group>"; };
+		219E190621EB892D00B6AC13 /* vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vector.swift; sourceTree = "<group>"; };
+		219E190721EB892E00B6AC13 /* datums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datums.swift; sourceTree = "<group>"; };
+		219E190821EB892E00B6AC13 /* UTM+toMGRS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UTM+toMGRS.swift"; sourceTree = "<group>"; };
+		219E190921EB892F00B6AC13 /* UTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTM.swift; sourceTree = "<group>"; };
+		219E190A21EB892F00B6AC13 /* latlon-ellipsoidal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "latlon-ellipsoidal.swift"; sourceTree = "<group>"; };
+		219E190B21EB892F00B6AC13 /* dms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dms.swift; sourceTree = "<group>"; };
+		219E190C21EB892F00B6AC13 /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		219E190D21EB892F00B6AC13 /* MGRS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGRS.swift; sourceTree = "<group>"; };
+		219E190E21EB893000B6AC13 /* String+toCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+toCharacter.swift"; sourceTree = "<group>"; };
+		219E190F21EB893000B6AC13 /* LatLon+toUTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LatLon+toUTM.swift"; sourceTree = "<group>"; };
+		219E191021EB893100B6AC13 /* ellipsoids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ellipsoids.swift; sourceTree = "<group>"; };
+		21B561FE21E9F41200186C2B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		21C5B8382200DD800045F078 /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		66045EC9205E8A5F009B7BE0 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		6606DB0E205F059A00662237 /* customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customization.swift; sourceTree = "<group>"; };
+		6606DB10205F179200662237 /* globalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalFunctions.swift; sourceTree = "<group>"; };
+		6621E4ED20834934005348F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66CC23C6205E7E700007CD6F /* Pajlot MGRS Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pajlot MGRS Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CC23C9205E7E700007CD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66CC23CB205E7E700007CD6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66CC23CE205E7E700007CD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66CC23D0205E7E700007CD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CC23D3205E7E700007CD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66CC23D5205E7E700007CD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FB4B55207406150047D128 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		66FB4B57207410DE0047D128 /* learnMoreMGRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnMoreMGRS.swift; sourceTree = "<group>"; };
+		66FB4B59207412AE0047D128 /* variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = variables.swift; sourceTree = "<group>"; };
+		B782CA36C8F32F416433B532 /* Pods-Pajlot MGRS Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pajlot MGRS Pro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pajlot MGRS Pro/Pods-Pajlot MGRS Pro.release.xcconfig"; sourceTree = "<group>"; };
+		D1BA84ADC441FB43CCB290E8 /* Pods-Pajlot MGRS Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pajlot MGRS Pro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pajlot MGRS Pro/Pods-Pajlot MGRS Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		DC76513CA07BB69BC33419B8 /* Pods_Pajlot_MGRS_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pajlot_MGRS_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219E18BC21EB678E00B6AC13 /* MapKit.framework in Frameworks */,
+				5C57EAECC801639849F1B734 /* Pods_Pajlot_MGRS_Pro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		219E18FE21EB885400B6AC13 /* Coordinates */ = {
+			isa = PBXGroup;
+			children = (
+				219E190721EB892E00B6AC13 /* datums.swift */,
+				219E190B21EB892F00B6AC13 /* dms.swift */,
+				219E190C21EB892F00B6AC13 /* Double+Extensions.swift */,
+				219E191021EB893100B6AC13 /* ellipsoids.swift */,
+				219E190A21EB892F00B6AC13 /* latlon-ellipsoidal.swift */,
+				219E190F21EB893000B6AC13 /* LatLon+toUTM.swift */,
+				219E190D21EB892F00B6AC13 /* MGRS.swift */,
+				219E190521EB892D00B6AC13 /* String+getIntegerPosition.swift */,
+				219E190E21EB893000B6AC13 /* String+toCharacter.swift */,
+				219E190921EB892F00B6AC13 /* UTM.swift */,
+				219E190821EB892E00B6AC13 /* UTM+toMGRS.swift */,
+				219E190621EB892D00B6AC13 /* vector.swift */,
+			);
+			path = Coordinates;
+			sourceTree = "<group>";
+		};
+		33DD7329B54C4C7EE2A8D701 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA84ADC441FB43CCB290E8 /* Pods-Pajlot MGRS Pro.debug.xcconfig */,
+				B782CA36C8F32F416433B532 /* Pods-Pajlot MGRS Pro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D276E70E3825A54A424AB55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219E18BB21EB678E00B6AC13 /* MapKit.framework */,
+				DC76513CA07BB69BC33419B8 /* Pods_Pajlot_MGRS_Pro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6621E4EF2083494E005348F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				219E18FE21EB885400B6AC13 /* Coordinates */,
+				66CC23C9205E7E700007CD6F /* AppDelegate.swift */,
+				66045EC9205E8A5F009B7BE0 /* extensions.swift */,
+				6606DB10205F179200662237 /* globalFunctions.swift */,
+				21B561FE21E9F41200186C2B /* Service.swift */,
+				21140B1F21EB408E00A3E3C1 /* Swiftify.swift */,
+				21C5B8382200DD800045F078 /* CustomTF.swift */,
+				66FB4B59207412AE0047D128 /* variables.swift */,
+				6606DB0E205F059A00662237 /* customization.swift */,
+				66CC23D5205E7E700007CD6F /* Info.plist */,
+				6621E4ED20834934005348F7 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		66CC23BD205E7E700007CD6F = {
 			isa = PBXGroup;
 			children = (
 				66CC23C8205E7E700007CD6F /* Pajlot MGRS Pro */,
 				66CC23C7205E7E700007CD6F /* Products */,
+				33DD7329B54C4C7EE2A8D701 /* Pods */,
+				4D276E70E3825A54A424AB55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +165,14 @@
 		66CC23C8205E7E700007CD6F /* Pajlot MGRS Pro */ = {
 			isa = PBXGroup;
 			children = (
-				66CC23C9205E7E700007CD6F /* AppDelegate.swift */,
-				66CC23CB205E7E700007CD6F /* ViewController.swift */,
-				66CC23CD205E7E700007CD6F /* Main.storyboard */,
+				6621E4EF2083494E005348F7 /* Supporting Files */,
 				66CC23D0205E7E700007CD6F /* Assets.xcassets */,
 				66CC23D2205E7E700007CD6F /* LaunchScreen.storyboard */,
-				66CC23D5205E7E700007CD6F /* Info.plist */,
+				66CC23CD205E7E700007CD6F /* Main.storyboard */,
+				66FB4B55207406150047D128 /* MainVC.swift */,
+				21140B2F21EB48C600A3E3C1 /* DMStoMGRS.swift */,
+				1F256F4521EA2B2E0056F861 /* MGRStoDMS.swift */,
+				66FB4B57207410DE0047D128 /* learnMoreMGRS.swift */,
 			);
 			path = "Pajlot MGRS Pro";
 			sourceTree = "<group>";
@@ -71,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66CC23D8205E7E700007CD6F /* Build configuration list for PBXNativeTarget "Pajlot MGRS Pro" */;
 			buildPhases = (
+				559CA6A1063E19E4B08FC213 /* [CP] Check Pods Manifest.lock */,
 				66CC23C2205E7E700007CD6F /* Sources */,
 				66CC23C3205E7E700007CD6F /* Frameworks */,
 				66CC23C4205E7E700007CD6F /* Resources */,
+				EBEEA5128E07906651425F6E /* [CP] Embed Pods Frameworks */,
+				D4CD49B5FB6DB508330A9E88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +207,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Adam Olechno";
 				TargetAttributes = {
 					66CC23C5205E7E700007CD6F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CC23D4205E7E700007CD6F /* LaunchScreen.storyboard in Resources */,
+				6621E4EE20834934005348F7 /* GoogleService-Info.plist in Resources */,
 				66CC23D1205E7E700007CD6F /* Assets.xcassets in Resources */,
 				66CC23CF205E7E700007CD6F /* Main.storyboard in Resources */,
 			);
@@ -131,13 +249,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		559CA6A1063E19E4B08FC213 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pajlot MGRS Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CD49B5FB6DB508330A9E88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pajlot MGRS Pro/Pods-Pajlot MGRS Pro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBEEA5128E07906651425F6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pajlot MGRS Pro/Pods-Pajlot MGRS Pro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pajlot MGRS Pro/Pods-Pajlot MGRS Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66CC23C2205E7E700007CD6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CC23CC205E7E700007CD6F /* ViewController.swift in Sources */,
+				6606DB11205F179200662237 /* globalFunctions.swift in Sources */,
+				66FB4B56207406150047D128 /* MainVC.swift in Sources */,
+				219E191921EB893100B6AC13 /* MGRS.swift in Sources */,
+				219E191421EB893100B6AC13 /* UTM+toMGRS.swift in Sources */,
+				21140B2021EB408E00A3E3C1 /* Swiftify.swift in Sources */,
+				219E191B21EB893100B6AC13 /* LatLon+toUTM.swift in Sources */,
+				66FB4B5A207412AE0047D128 /* variables.swift in Sources */,
+				1F256F4621EA2B2E0056F861 /* MGRStoDMS.swift in Sources */,
+				219E191321EB893100B6AC13 /* datums.swift in Sources */,
 				66CC23CA205E7E700007CD6F /* AppDelegate.swift in Sources */,
+				66045ECA205E8A5F009B7BE0 /* extensions.swift in Sources */,
+				219E191121EB893100B6AC13 /* String+getIntegerPosition.swift in Sources */,
+				219E191521EB893100B6AC13 /* UTM.swift in Sources */,
+				219E191221EB893100B6AC13 /* vector.swift in Sources */,
+				21C5B8392200DD800045F078 /* CustomTF.swift in Sources */,
+				21B561FF21E9F41200186C2B /* Service.swift in Sources */,
+				219E191821EB893100B6AC13 /* Double+Extensions.swift in Sources */,
+				21140B3021EB48C600A3E3C1 /* DMStoMGRS.swift in Sources */,
+				219E191A21EB893100B6AC13 /* String+toCharacter.swift in Sources */,
+				6606DB0F205F059A00662237 /* customization.swift in Sources */,
+				66FB4B58207410DE0047D128 /* learnMoreMGRS.swift in Sources */,
+				219E191721EB893100B6AC13 /* dms.swift in Sources */,
+				219E191621EB893100B6AC13 /* latlon-ellipsoidal.swift in Sources */,
+				219E191C21EB893100B6AC13 /* ellipsoids.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +373,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +381,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -211,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -234,6 +432,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +440,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -262,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,31 +472,47 @@
 		};
 		66CC23D9205E7E700007CD6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BA84ADC441FB43CCB290E8 /* Pods-Pajlot MGRS Pro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Y7V65FES8;
-				INFOPLIST_FILE = "Pajlot MGRS Pro/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pajlot\\ MGRS\\ Pro",
+					"$(PROJECT_DIR)/Pajlot\\ MGRS\\ Pro",
+				);
+				INFOPLIST_FILE = "Pajlot MGRS Pro/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.pajlot.Pajlot-MGRS-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		66CC23DA205E7E700007CD6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B782CA36C8F32F416433B532 /* Pods-Pajlot MGRS Pro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Y7V65FES8;
-				INFOPLIST_FILE = "Pajlot MGRS Pro/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pajlot\\ MGRS\\ Pro",
+					"$(PROJECT_DIR)/Pajlot\\ MGRS\\ Pro",
+				);
+				INFOPLIST_FILE = "Pajlot MGRS Pro/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.pajlot.Pajlot-MGRS-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
